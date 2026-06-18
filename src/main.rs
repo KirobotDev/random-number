@@ -16,7 +16,12 @@ fn main() {
         println!("Tu a gagné")
     }
 
+    else if nb != number {
+        println!("le nombre et bien différents")
+    }
+
     else {
         println!("Tu a perdu")
     }
+
 }   
